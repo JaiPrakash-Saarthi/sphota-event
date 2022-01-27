@@ -1,11 +1,14 @@
 import React from "react";
 import AboutEvent from "./aboutEvent/AboutEvent";
 import "./Home.css";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import LandingImage from "./landingImage/LandingImage";
 import OurSpeaker from "./ourSpeaker/OurSpeaker";
 import RemainderMessage from "./remainderMessage/RemainderMessage";
+import WhyAttend from "./whyAttend/WhyAttend";
+import WhoAttend from "./whoAttend/WhoAttend";
+import AboutSaarthi from "./aboutSaarthi/AboutSaarthi";
 
 const Home = () => {
   return (
@@ -34,10 +37,34 @@ const Home = () => {
       <Container className="AboutEventComponent">
         <Row>
           <Col>
-            <RemainderMessage/>
+            <WhyAttend/>
+          </Col>
+          <Col>
+            <WhoAttend/>
           </Col>
         </Row>
       </Container>
+      {/* <Container>
+        <Row>
+          <Col>
+            <WhoAttend/>
+          </Col>
+        </Row>
+      </Container> */}
+      <Container>
+        <Row>
+          <Col>
+            <AboutSaarthi/>
+          </Col>
+        </Row>
+      </Container>
+      {/* <Container className="AboutEventComponent">
+        <Row>
+          <Col>
+            <RemainderMessage/>
+          </Col>
+        </Row>
+      </Container> */}
     </>
   );
 };

@@ -1,4 +1,9 @@
+
+.speakerImageContainer{
+    text-align: center;
+    padding: 20px 0px;
+}
 .speakerImgageCss{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }

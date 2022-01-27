@@ -8,19 +8,19 @@ const EventInfo = () => {
         <Container>
         <Row>
             <Col>
-            <h3>
-                About Event
-            </h3>
+            <h2>
+                 About Sphot 
+            </h2>
             </Col>
         </Row>
         <Row >
             <Col>
-            <h5>
-            Industry focus: Packaging, Food & Beverages, Consumer Products, Healthcare
-            </h5>
+            <p>
+                We’re turning 5 on Feb 1.
+            </p>
             </Col>
         </Row>
-        <Row className="eventInfoCol3">
+        {/* <Row className="eventInfoCol3">
             <Col>
             <p>
             Just how much is the potential for Intelligent Packaging in these industries? Here are some statistics from our analysis
@@ -37,26 +37,38 @@ const EventInfo = () => {
                </li>
            </ul>
             </Col>
-        </Row>
+        </Row> */}
         <Row>
             <Col>
             <p>
-            The primary objective of Intelligent Packaging is to combat waste, maintain product integrity, and improve customer experience through interaction with the product inside and buyers.
-            </p>
-            <p>
-            While Intelligent Packaging is in early stages of mainstream adoption, industries such as Food & Beverages, Consumer Products, Healthcare are clear leaders in embracing bold innovations in this space mainly in 3 areas
-            </p>
+            And, we’re celebrating the day with Sphot: A full-day virtual event that’ll bring together the best minds from the field of Linguistics, AI, and BFSI.             </p>
+            <h5>
+            Thought-provoking Talks Revolving Around
+            </h5>
             <ul>
                 <li>
-                Maintaining product integrity
-
+                Evolution of languages 
                 </li>
                 <li>
-                For the next level customer engagement
+                Advancement of Indian Languages 
                     </li>
                     <li>
-                    
-Improving inventory and lifecycle management
+                      Linguistic Diversity 
+                    </li>
+                    <li>
+                    Careers in Voice AI  
+                    </li>
+                    <li>
+                    Multilingual Customer Experience 
+                    </li>
+                    <li>
+                      Contact Center Automation 
+                    </li>
+                    <li>
+                    AI in Banking and Finance 
+                    </li>
+                    <li>
+                    Analytics 
                     </li>
             </ul>
             </Col>

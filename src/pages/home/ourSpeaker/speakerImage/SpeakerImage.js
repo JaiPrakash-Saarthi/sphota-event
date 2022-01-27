@@ -5,22 +5,23 @@ import "./SpeakerImage.css";
 
 import LandingImageReal from "../../landingImage/LandingPage.png";
 
-const SpeakerImage = () => {
+const SpeakerImage = (props) => {
+    const {imgUrl,name,designation} = props.item;
     return(
         <>
-        <Container fluid>
-            <Row>
+        <Container fluid className="speakerImageContainer">
+            <Row >
                 <Col >
                 <Image src={LandingImageReal} roundedCircle className="speakerImgageCss" />
                 </Col>
             </Row>
-            <Row>
+            <Row text-center>
                 <Col >
                 <h4>
-                Saurabh Sharma
+               {name}
                 </h4>
                 <h5>
-                General Manager, Healthcare
+               {designation}
                 </h5>
                 </Col>
             </Row>
