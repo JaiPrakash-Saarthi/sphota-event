@@ -1,31 +1,74 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col,Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./WhoAttend.css";
+
+import WhoAttendImage from "./WhoAttendImage.svg";
 
 
 const WhoAttend = ( ) => {
     return(
         <>
-        <Container>
+        <Container fluid>
             <Row>
-                <Col>
+                <Col className="whoAttendRow1Col1">
                 <h2>
                 Who Should Attend? 
                 </h2>
-                <ul>
-                    <li> CXOs  </li>
-                    <li> Credit & Collection Leadership  </li>
-                    <li> Contact Center Management  </li>
-                    <li> VPs of Customer Experience, Product, and Digital Transformation  </li>
-                    <li> Data Scientists  </li>
-                    <li> NLP Practitioners  </li>
-                    <li> Innovation Leads  </li>
-                    <li> UI/UX Designers & Developers  </li>
-                    <li> Marketing Leaders  </li>
-                </ul>
-                <p> And, anyone who aspires to or is playing a role in the Voice-led era of business.  </p>
+                <br></br>
                 </Col>
             </Row>
+            <Container className="whoAttendCardContainer">
+            <Row>
+                <Col>
+                <h4>
+                Credit & Collection Leadership
+                </h4>
+                
+                </Col>
+                <Col className="whoAttCont2Row1Col2">
+                <h4>
+                Contact Center Management
+                </h4>
+                 
+                </Col>
+            </Row>
+            <Row>
+                <Col className="whoAttCont2Row2Col1">
+                <h4>
+                CXOs
+                </h4>
+                <h4>
+                UI/UX Designers<br/>
+                & Developers 
+                </h4>
+                <h4>
+                NLP practitioners 
+                </h4>
+                </Col>
+                <Col className="whoAttCont2Row2Col2">
+                <Image src={WhoAttendImage}/>
+                </Col>
+                <Col className="whoAttCont2Row2Col3">
+                <h4>
+                Innovation Leads 
+                </h4>
+                <h4>
+                Data Scientists 
+                </h4>
+                <h4>
+                Marketing Leaders 
+                </h4>
+                </Col>
+            </Row>
+            <Row>
+                <Col className="whoAttCont2Row3Col1">
+                <h4>
+                VPs of Customer Experience, Product and Digital Transformation 
+                </h4>
+                </Col>
+            </Row>
+            </Container>
         </Container>
         </>
     )

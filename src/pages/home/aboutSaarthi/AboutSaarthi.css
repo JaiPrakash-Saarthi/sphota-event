@@ -1,0 +1,13 @@
+.aboutSaarthiRow1Col1 h2{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.aboutSaarthiRow1Col1 p{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #A9A9A9;
+}

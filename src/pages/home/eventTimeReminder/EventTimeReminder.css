@@ -1,0 +1,19 @@
+.eventTimeContainer{
+  
+}
+
+
+.eventTimerRow1Col1{
+    background: #1C1C1C;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    border-radius: 15px;
+   padding: 40px 0px;
+   text-align: center;
+   font-weight: 500;
+    font-size: 33px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+

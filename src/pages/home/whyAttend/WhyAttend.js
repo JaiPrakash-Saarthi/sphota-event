@@ -1,6 +1,9 @@
 import React from "react";
-import { Container,Row,Col } from "react-bootstrap";
+import { Container,Row,Col,Image } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./WhyAttend.css";
+
+import WhyAttendImage from "./WhyAttendImage.svg";
 
 
 const WhyAttend = () => {
@@ -8,29 +11,38 @@ const WhyAttend = () => {
         <>
         <Container>
             <Row>
-                <Col>
+                <Col className="whyAttendRow1Col1">
                 <h2>
                 Why Should you Attend? 
                 </h2>
-                <p>
+                <br></br>
+                <ul>
+                <li>
                 Hear directly from experts 
-                </p>
-                <p>
+                </li>
+                <li>
                 Learn from experiences of Saarthi SMEs 
-                </p>
-                <p>
+                </li>
+                <li>
                 Bust myths surrounding AI implementation in customer experience 
-                </p>
-                <p>
+                </li>
+                <li>
                 Get holistic picture of past, present, and future of multilingual Voice AI 
-                </p>
-                <p>
+                </li>
+                <li>
                 Know clashes of opinion/expectation between research and business 
-                </p>
-                <p>
-                Network with business and innovation leaders, and like-minded AI enthusiasts                 </p>
+                </li>
+                <li>
+                Network with business and innovation leaders, and like-minded AI enthusiasts 
+                </li>
+                </ul>
+                </Col>
+
+                <Col className="whoAttendRow1Col2">
+                <Image  src={WhyAttendImage} alt="img"/>
                 </Col>
             </Row>
+
         </Container>
         </>
     )

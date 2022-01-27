@@ -1,0 +1,33 @@
+.navigationBarContainer{
+    width: 100%;
+    background: #1C1C1C;
+    opacity: 0.6;
+    box-sizing: border-box;
+    padding: 20px 0%;
+    margin: 0%;
+
+}
+
+
+.navigationBarRow1Col1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.navigationBarRow1Col1 h4{
+    color: #FFFFFF;
+}
+.navigationBarRow1Col2{
+    text-align: right;
+}
+.navigationBarRow1Col2{
+    width: 200px;
+}
+.navigationBarRow1Col2Button{
+    background: linear-gradient(180deg, #3DF9D3 -8.67%, #0174FF 142.67%);
+    border-radius: 7px;
+    color: #1C1C1C;
+    font-weight: 900;
+    padding-left: 30px;
+    padding-right: 30px;
+}

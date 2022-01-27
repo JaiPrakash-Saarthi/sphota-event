@@ -15,14 +15,14 @@ const SpeakerImage = (props) => {
                 <Image src={LandingImageReal} roundedCircle className="speakerImgageCss" />
                 </Col>
             </Row>
-            <Row text-center>
-                <Col >
+            <Row >
+                <Col className="speakerImageRow2Col1">
                 <h4>
                {name}
                 </h4>
-                <h5>
+                <h6>
                {designation}
-                </h5>
+                </h6>
                 </Col>
             </Row>
         </Container>

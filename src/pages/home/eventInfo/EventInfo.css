@@ -1,4 +1,28 @@
-.eventInfoCol3{
-    background: #059ad5;
-    color: #fff;
+.eventInfoRow1Col1 h2{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.eventInfoRow2Col1 p{
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 29px;
+    color: #A9A9A9;
+}
+
+.eventInfoRow3Col1 h5{
+    font-weight: 600;
+    font-size: 35px;
+    line-height:40px;
+    color: #FFFFFF;
+}
+
+.eventInfoRow3Col1 ul li{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
+    color: #A9A9A9;
+    padding-bottom: 7px;
 }

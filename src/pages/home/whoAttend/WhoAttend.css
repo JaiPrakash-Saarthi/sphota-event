@@ -1,0 +1,52 @@
+.whoAttendRow1Col1 h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.whoAttendRow1Col2{
+    text-align: center;
+}
+.whoAttendCardContainer{
+    background: #1C1C1C;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 30px 5%;
+}
+
+.whoAttendCardContainer h4{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
+    color: #A9A9A9;
+    padding-bottom: 7px;
+}
+.whoAttCont2Row2Col1 h4{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.whoAttCont2Row1Col2{
+    text-align: right;
+}
+.whoAttCont2Row2Col3{
+    text-align: right;
+}
+
+
+.whoAttCont2Row2Col3 h4{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media (max-width:720px) {
+    .whoAttCont2Row2Col2 img{
+        width: 100%;
+    }
+}
+
+
+.whoAttCont2Row3Col1{
+    text-align: center;
+}

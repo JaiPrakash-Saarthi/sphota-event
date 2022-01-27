@@ -3,11 +3,12 @@ import axios from "axios";
 import { Container,Row,Col,Button,Form, } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import TimerSaarthi from "../../../components/timerSaarthi/TimerSaarthi";
+
 
 
 
 import "./RegisterationForm.css"
+import ErrorMessage from "../error/ErrorMessage";
 const RegisterationForm = () => {
 
     const [counterTime, setCounterTime] = useState(50000000);
@@ -19,6 +20,7 @@ const RegisterationForm = () => {
         jobTitle:""
     })
     const [isError, setIsError] = useState(null);
+    const [isSuccess, setIsSuccess] = useState(false);
 
     const handleChangeUserCredentials = (e,value) => {
         const temp = e.target.value;
@@ -78,7 +80,7 @@ const RegisterationForm = () => {
 
 
     const handleSubmitRegisterUser = async (e) => {
-        e.preventDefault();
+        // e.preventDefault();
       const timedate = new Date();
     const formUrl = 'https://api.hsforms.com/submissions/v3/integration/submit/20107629/48e1a7d4-b918-443f-8de7-8c44dc60f576'
 
@@ -132,8 +134,10 @@ const RegisterationForm = () => {
         },
       }).then(res =>{
           console.log(res);
+          setIsSuccess(true);
       }).catch(err => {
           console.log(err);
+          setIsError(prev => "Please fill all credentials correctly!")
       })
       
       }
@@ -141,43 +145,52 @@ const RegisterationForm = () => {
  
     return(
         <>
-        <Container>
+        <Container className="registerationFormContainer" fluid>
             <Row>
-                <Col>
+                <Col className="registerationFormRow1Col1">
                 <h2>
                     Register Now
                 </h2>
                 </Col>
-                <Col>
-                <h3>
-                    <TimerSaarthi counterTime={counterTime} message="Registeration Closed"/>
-                </h3>
-                </Col>
             </Row>
         <Row>
-            <Col>
+            {
+                isSuccess ?
+                <Col className="regisFormSuccessFul">
+                <p> Thanks for registering! </p>
+                </Col>
+                :
+                <Col>
                         <Form>
             <fieldset >
-                <Form.Group className="mb-3">
-                <Form.Control type="text" placeholder="Full Name *" required onChange={(e) => handleChangeUserCredentials(e,'name')}/>
+                <Form.Group className="mb-4">
+                <Form.Control type="text" className="rfinput" placeholder="Full Name *" required onChange={(e) => handleChangeUserCredentials(e,'name')}/>
                 </Form.Group>
-                <Form.Group className="mb-3">
-                <Form.Control type="email" placeholder="Email *" required onChange={(e) => handleChangeUserCredentials(e,'email')}/>
+                <Form.Group className="mb-4">
+                <Form.Control type="email" className="rfinput" placeholder="Email *" required onChange={(e) => handleChangeUserCredentials(e,'email')}/>
                 </Form.Group>
-                <Form.Group className="mb-3">
-                <Form.Control type="phone" placeholder="Phone No *" required onChange={(e) => handleChangeUserCredentials(e,'phone')}/>
+                <Form.Group className="mb-4">
+                <Form.Control type="phone" className="rfinput" placeholder="Phone No *" required onChange={(e) => handleChangeUserCredentials(e,'phone')}/>
                 </Form.Group>
-                <Form.Group className="mb-3">
-                <Form.Control type="text" placeholder="Company *" required onChange={(e) => handleChangeUserCredentials(e,'company')}/>
+                <Form.Group className="mb-4">
+                <Form.Control type="text" className="rfinput" placeholder="Company *" required onChange={(e) => handleChangeUserCredentials(e,'company')}/>
                 </Form.Group>
-                <Form.Group className="mb-3">
-                <Form.Control type="text" placeholder="Job Title *" required onChange={(e) => handleChangeUserCredentials(e,'jobTitle')}/>
+                <Form.Group className="mb-4">
+                <Form.Control type="text" className="rfinput" placeholder="Job Title *" required onChange={(e) => handleChangeUserCredentials(e,'jobTitle')}/>
                 </Form.Group>
-                <Button type="submit" onClick={handleSubmitRegisterUser}>Submit</Button>
+                {
+                    isError &&  <ErrorMessage errorMessage={isError}/>
+                }
+                <div className="rfButtonSubmit">
+                <Button type="submit" className="rfinputSubmitButton" onClick={handleSubmitRegisterUser}>Submit</Button>
+                </div>
             </fieldset>
             </Form>
 
             </Col>
+           
+            }
+            
         </Row>
         </Container>
         </>

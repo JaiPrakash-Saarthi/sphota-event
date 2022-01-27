@@ -1,0 +1,14 @@
+.whyAttendRow1Col1 h2{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.whyAttendRow1Col1 ul li{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: #A9A9A9;
+    padding-bottom: 7px;
+}

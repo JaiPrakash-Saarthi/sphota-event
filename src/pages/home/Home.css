@@ -1,3 +1,16 @@
 .AboutEventComponent{
     padding: 100px 0px;
 }
+
+.homeNavigationBar{
+    position: fixed;
+    top: 0px;
+    z-index: 9999;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* .homeLandingImage{
+    padding: 0%;
+    margin: 0%;
+} */

@@ -5,43 +5,29 @@ import "./EventInfo.css";
 const EventInfo = () => {
     return(
         <>
-        <Container>
-        <Row>
-            <Col>
+        <Container className="eventInfoContainer">
+        <Row className="eventInfoRow1">
+            <Col className="eventInfoRow1Col1">
             <h2>
                  About Sphot 
             </h2>
+            <br></br>
             </Col>
         </Row>
         <Row >
-            <Col>
+            <Col className="eventInfoRow2Col1">
             <p>
                 We’re turning 5 on Feb 1.
             </p>
+            <br></br>
             </Col>
         </Row>
-        {/* <Row className="eventInfoCol3">
-            <Col>
-            <p>
-            Just how much is the potential for Intelligent Packaging in these industries? Here are some statistics from our analysis
-            </p>
-           <ul>
-               <li>
-               Food & Beverages industry is by far the frontrunner in adoption of Intelligent packaging solutions, accounting for 45% share
-               </li>
-               <li>
-               Intelligent Packaging to record growth avenues worth $3.5 Bn in Healthcare due to stringent packaging and transport norms for various medicinal drugs and supplies
-               </li>
-               <li>
-               Intelligent packaging solutions that are interactive, smart, and connected will generate $1 Bn opportunities in Consumer Products
-               </li>
-           </ul>
-            </Col>
-        </Row> */}
         <Row>
-            <Col>
+            <Col className="eventInfoRow2Col1 eventInfoRow3Col1">
             <p>
-            And, we’re celebrating the day with Sphot: A full-day virtual event that’ll bring together the best minds from the field of Linguistics, AI, and BFSI.             </p>
+            And, we’re celebrating the day with Sphot: A full-day virtual event that’ll bring together the best minds from the field of Linguistics, AI, and BFSI.
+            </p>
+            <br></br>
             <h5>
             Thought-provoking Talks Revolving Around
             </h5>

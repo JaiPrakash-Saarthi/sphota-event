@@ -9,14 +9,30 @@ import RemainderMessage from "./remainderMessage/RemainderMessage";
 import WhyAttend from "./whyAttend/WhyAttend";
 import WhoAttend from "./whoAttend/WhoAttend";
 import AboutSaarthi from "./aboutSaarthi/AboutSaarthi";
+import NavigationBar from "./navigationbar/NavigationBar";
+import EventTimeReminder from "./eventTimeReminder/EventTimeReminder";
 
 const Home = () => {
   return (
     <>
-      <Container fluid p-0 m-0 style={{padding:"0px",margin:"0px"}}>
+    <Container fluid className="homeNavigationBar">
+        <Row>
+          <Col>
+            <NavigationBar />
+          </Col>
+        </Row>
+      </Container>
+      <Container fluid className="homeLandingImage">
         <Row>
           <Col>
             <LandingImage />
+          </Col>
+        </Row>
+      </Container>
+      <Container fluid>
+        <Row>
+          <Col>
+            <EventTimeReminder/>
           </Col>
         </Row>
       </Container>
@@ -27,44 +43,35 @@ const Home = () => {
           </Col>
         </Row>
         </Container>
-        <Container>
+      <Container>
         <Row>
           <Col>
-            <OurSpeaker/>
+            <WhyAttend/>
           </Col>
         </Row>
       </Container>
       <Container className="AboutEventComponent">
         <Row>
           <Col>
-            <WhyAttend/>
-          </Col>
-          <Col>
             <WhoAttend/>
           </Col>
         </Row>
       </Container>
-      {/* <Container>
+      <Container >
         <Row>
           <Col>
-            <WhoAttend/>
+            <OurSpeaker/>
           </Col>
         </Row>
-      </Container> */}
-      <Container>
+      </Container>
+      <Container  className="AboutEventComponent">
         <Row>
           <Col>
             <AboutSaarthi/>
           </Col>
         </Row>
       </Container>
-      {/* <Container className="AboutEventComponent">
-        <Row>
-          <Col>
-            <RemainderMessage/>
-          </Col>
-        </Row>
-      </Container> */}
+   
     </>
   );
 };

@@ -1,0 +1,47 @@
+.registerationFormContainer{
+    background: #1C1C1C;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    padding: 20px 5% ;
+    
+}
+.registerationFormRow1Col1{
+    /* background: #3DF9D3;
+    opacity: 0.5;
+    border-radius: 15px 0px 0px 0px; */
+}
+
+.registerationFormRow1Col1 h2{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+.rfinput{
+    background: #2B2B2B;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    padding: 15px 10px;
+    color:#A9A9A9;
+}
+.rfButtonSubmit{
+text-align: center !important;
+}
+
+.rfinputSubmitButton{
+    background: linear-gradient(180deg, #3DF9D3 0%, #0174FF 150%);
+    border-radius: 7px;
+    padding: 5px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.regisFormSuccessFul p{
+    color: #FFFFFF;
+}

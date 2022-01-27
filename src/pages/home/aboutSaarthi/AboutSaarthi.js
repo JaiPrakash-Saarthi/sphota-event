@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./AboutSaarthi.css";
 
 
 const AboutSaarthi = () => {
@@ -8,10 +9,11 @@ const AboutSaarthi = () => {
         <>
         <Container>
             <Row>
-                <Col>
+                <Col className="aboutSaarthiRow1Col1">
                 <h2>
                 About Saarthi.ai 
                 </h2>
+                <br></br>
                 <p>
                 Saarthi.ai helps global enterprises automate customer communication with multilingual contact center AI 
                 </p>

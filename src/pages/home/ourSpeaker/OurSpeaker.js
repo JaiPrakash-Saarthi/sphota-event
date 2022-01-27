@@ -17,7 +17,7 @@ const OurSpeaker = () => {
         },
         {
             imgurl:"",
-            name:"Dr. Sriparna saha",
+            name:"Dr. Sriparna Saha",
             designation:"Associate Prof. of AIML IIT Patna"
         },
         {
@@ -32,7 +32,7 @@ const OurSpeaker = () => {
         },
         {
             imgurl:"",
-            name:"Dhiraj agarwal",
+            name:"Dhiraj Agarwal",
             designation:"CEO TW & EV BUSINESS at Mannapuram Finance Shreejit Menon - CEO, Indostar Capital"
         },
         {
@@ -52,7 +52,7 @@ const OurSpeaker = () => {
             <Row>
                 <Col className="speakerHeading">
                 <h2>
-                Speakers 
+                Our Speakers 
                 </h2>
                 </Col>  
             </Row>
