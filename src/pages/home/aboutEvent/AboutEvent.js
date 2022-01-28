@@ -14,6 +14,11 @@ const AboutEvent = () => {
             <Col><EventInfo/></Col>
             <Col><RegisterationForm/></Col>
         </Row>
+        <Row style={{borderBottom:"0.5px solid #ffffff",opacity:"0.5",paddingTop:"20px"}}>
+                <Col className="anyoneCont3Row1Col1">
+                
+                </Col>
+            </Row>
         </Container>
         </>
     )

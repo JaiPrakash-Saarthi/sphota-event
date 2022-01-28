@@ -70,6 +70,20 @@ const WhoAttend = ( ) => {
             </Row>
             </Container>
         </Container>
+        <Container>
+            <Row>
+                <Col className="anyoneCont3Row1Col1">
+                <h4>
+                And, anyone who aspires to or is playing a role in the Voice-led era of business.
+                </h4>
+                </Col>
+            </Row>
+            <Row style={{borderBottom:"0.5px solid #ffffff",opacity:"0.5"}}>
+                <Col className="anyoneCont3Row1Col1">
+                
+                </Col>
+            </Row>
+        </Container>
         </>
     )
 }
