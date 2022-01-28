@@ -3,7 +3,7 @@ import { Container,Row,Col,Image } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./SpeakerImage.css";
 
-import LandingImageReal from "../../landingImage/LandingPage.png";
+import LandingImageReal from "./LandingPage.png";
 
 const SpeakerImage = (props) => {
     const {imgUrl,name,designation} = props.item;

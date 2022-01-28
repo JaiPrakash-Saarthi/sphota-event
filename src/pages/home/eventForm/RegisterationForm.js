@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
+
 import "./RegisterationForm.css"
 import ErrorMessage from "../error/ErrorMessage";
 const RegisterationForm = (props) => {
