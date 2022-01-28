@@ -1,7 +1,8 @@
 import React, { useState} from "react";
 import axios from "axios";
-import { Container,Row,Col,Button,Form, } from "react-bootstrap";
+import { Container,Row,Col,Button,Form,Image } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import RegisterationIcon from "./registerImageIcon.svg";
 
 
 
@@ -146,6 +147,11 @@ const RegisterationForm = (props) => {
     return(
         <>
         <Container className="registerationFormContainer" fluid >
+                <Row>
+                <Col className="registerationFormRowImgColImg">
+                <img src={RegisterationIcon} alt="Image"/>
+                </Col>
+            </Row>
             <Row>
                 <Col className="registerationFormRow1Col1">
                 <h2>

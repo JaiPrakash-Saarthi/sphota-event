@@ -56,3 +56,22 @@ text-align: center !important;
 .regisFormSuccessFul p{
     color: #FFFFFF;
 }
+
+.registerationFormRowImgColImg{
+    text-align: right;
+    position: relative;
+    top:-200px;
+    left: 70px;
+    height: 0px;
+}
+
+@media (max-width:820px) {
+    .registerationFormRowImgColImg{
+        top:-90px;
+        left: 40px;
+        height: 0px;
+    }
+    .registerationFormRowImgColImg img{
+        width: 100px;
+    }
+}
