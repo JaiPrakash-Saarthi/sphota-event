@@ -7,17 +7,19 @@ import SpeakerImage from "./speakerImage/SpeakerImage";
 
 import DhirajAgarwal from "../../../assets/speakerImage/Dhiraj Agarwal.jpeg"
 import GirishNathJha from "../../../assets/speakerImage/Girish Nath Jha.jpeg"
-
 import PrassannaLohar from "../../../assets/speakerImage/Prasanna Lohar.jpeg"
-
 import RishabhGarg from "../../../assets/speakerImage/Rishabh Garg.jpeg"
+import RiteshKumar from "../../../assets/speakerImage/Ritesh Kumar.jpeg"
+import ShreejitMenon from "../../../assets/speakerImage/Shreejit Menon.jpeg"
+import SriparnaSaha from "../../../assets/speakerImage/Sriparna Saha.jpeg"
+
 
 
 
 
 
 const OurSpeaker = () => {
-
+    
     const speakerInfo = [
         {
             imgUrl:GirishNathJha,
@@ -25,30 +27,35 @@ const OurSpeaker = () => {
             designation:"Professor of Computational Linguistics School for Sanskrit and Indic Studies, JNU"
         },
         {
-            imgUrl:"",
+            imgUrl:ShreejitMenon,
+            name:"Shreejit Menon",
+            designation:"CEO - Indostar Home Finance"
+        },
+        {
+            imgUrl:SriparnaSaha,
             name:"Dr. Sriparna Saha",
             designation:"Associate Prof. of AIML IIT Patna"
         },
         {
-            imgUrl:"",
+            imgUrl:RiteshKumar,
             name:"Ritesh",
             designation:"Associate Professor CTRANS"
         },
-        {
-            imgUrl:"",
-            name:"Dr. Pushpak Bhattacharya",
-            designation:"Professor at Computer Science and Engineering Department, IIT Bombay, ex-Director of Indian Institute of Technology Patna"
-        },
+        // {
+        //     imgUrl:"",
+        //     name:"Dr. Pushpak Bhattacharya",
+        //     designation:"Professor at Computer Science and Engineering Department, IIT Bombay, ex-Director of Indian Institute of Technology Patna"
+        // },
         {
             imgUrl:DhirajAgarwal,
             name:"Dhiraj Agarwal",
             designation:"CEO TW & EV BUSINESS at Mannapuram Finance Shreejit Menon - CEO, Indostar Capital"
         },
-        {
-            imgUrl:"",
-            name:"Sivakumar Nandipati",
-            designation:"Chief Digital Officer,FedFina"
-        },
+        // {
+        //     imgUrl:"",
+        //     name:"Sivakumar Nandipati",
+        //     designation:"Chief Digital Officer,FedFina"
+        // },
         {
             imgUrl:PrassannaLohar,
             name:"Prassanna Lohar",

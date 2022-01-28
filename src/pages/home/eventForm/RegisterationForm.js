@@ -16,7 +16,7 @@ const RegisterationForm = (props) => {
         name:"",
         email:"",
         phone:"",
-        designation:"",
+        company:"",
         jobTitle:""
     })
     const [isError, setIsError] = useState(null);
@@ -47,14 +47,6 @@ const RegisterationForm = (props) => {
                 return{
                     ...prev,
                     phone:temp
-                }
-            })
-        }
-        else if(value === 'designation'){
-            setUserCredentials(prev => {
-                return{
-                    ...prev,
-                    designation:temp
                 }
             })
         }
@@ -137,9 +129,10 @@ const RegisterationForm = (props) => {
       }).then(res =>{
           console.log(res);
           setIsSuccess(prev => "Thanks for registering!");
+          setUserCredentials(prev => null)
           setTimeout(() => {
             setIsSuccess(prev => null);
-          },50000)
+          },3000)
       }).catch(err => {
           console.log(err);
           setIsError(prev => "Please fill all credentials correctly!")
@@ -178,19 +171,19 @@ const RegisterationForm = (props) => {
                 <Form>
             <fieldset >
                 <Form.Group className="mb-4">
-                <Form.Control type="text" className="rfinput" placeholder="Full Name *" required onChange={(e) => handleChangeUserCredentials(e,'name')}/>
+                <Form.Control type="text" className="rfinput" placeholder="Full Name *" value={userCredentials? userCredentials?.name : ""} required onChange={(e) => handleChangeUserCredentials(e,'name')}/>
                 </Form.Group>
                 <Form.Group className="mb-4">
-                <Form.Control type="email" className="rfinput" placeholder="Email *" required onChange={(e) => handleChangeUserCredentials(e,'email')}/>
+                <Form.Control type="email" className="rfinput" placeholder="Email *" required value={userCredentials ? userCredentials?.email : ""} onChange={(e) => handleChangeUserCredentials(e,'email')}/>
                 </Form.Group>
                 <Form.Group className="mb-4">
-                <Form.Control type="phone" className="rfinput" placeholder="Phone No *" required onChange={(e) => handleChangeUserCredentials(e,'phone')}/>
+                <Form.Control type="phone" className="rfinput" placeholder="Phone No *" required value={userCredentials ? userCredentials?.phone : ""} onChange={(e) => handleChangeUserCredentials(e,'phone')}/>
                 </Form.Group>
                 <Form.Group className="mb-4">
-                <Form.Control type="text" className="rfinput" placeholder="Company *" required onChange={(e) => handleChangeUserCredentials(e,'company')}/>
+                <Form.Control type="text" className="rfinput" placeholder="Company *" required  value={userCredentials ? userCredentials?.company : ""} onChange={(e) => handleChangeUserCredentials(e,'company')}/>
                 </Form.Group>
                 <Form.Group className="mb-4">
-                <Form.Control type="text" className="rfinput" placeholder="Job Title *" required onChange={(e) => handleChangeUserCredentials(e,'jobTitle')}/>
+                <Form.Control type="text" className="rfinput" placeholder="Job Title *" required value={userCredentials ? userCredentials?.jobTitle : ""} onChange={(e) => handleChangeUserCredentials(e,'jobTitle')}/>
                 </Form.Group>
                 {
                     isError &&  <ErrorMessage errorMessage={isError}/>

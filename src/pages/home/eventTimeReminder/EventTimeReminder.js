@@ -5,7 +5,7 @@ import "./EventTimeReminder.css";
 import TimerSaarthi from "../../../components/timerSaarthi/TimerSaarthi";
 
 const EventTimeReminder = () => {
-    const[counterTime] = useState(4000000000)
+    const[counterTime] = useState(295200000)
     return(
         <>
         <Container className="eventTimeContainer">

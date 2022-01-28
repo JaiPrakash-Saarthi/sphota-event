@@ -3,6 +3,7 @@ import React from "react";
 import { Container,Row,Col, Button } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LandingImageReal from "./LandingPageImage.svg";
+//import LandingImageReal from "./zzsphot 2.jpg";
 //import LandingImageReal from "../../../assets/LandingPage.png";
 import "./LandingImage.css";
 const LandingImage = (props) => {

@@ -19,7 +19,7 @@ const WhoAttend = ( ) => {
                 </Col>
             </Row>
             <Container className="whoAttendCardContainer">
-            <Row>
+            <Row  className="whoAttedCon2Row1">
                 <Col>
                 <h4>
                 Credit & Collection Leadership
