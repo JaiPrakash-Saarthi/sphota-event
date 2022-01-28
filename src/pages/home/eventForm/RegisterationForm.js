@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useRef } from "react";
 import axios from "axios";
 import { Container,Row,Col,Button,Form, } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -141,11 +141,23 @@ const RegisterationForm = () => {
       })
       
       }
+    //   const ScrollDemo = () => {
+        
+    //     // run this function from an event handler or an effect to execute scroll 
+     
+    //     return (
+    //        <> 
+    //           <div ref={myRef}>Element to scroll to</div> 
+    //           <button onClick={executeScroll}> Click to scroll </button> 
+    //        </>
+    //     )
+    //  }
       
  
     return(
         <>
         <Container className="registerationFormContainer" fluid>
+        {/* <a name="#registForm"></a> */}
             <Row>
                 <Col className="registerationFormRow1Col1">
                 <h2>

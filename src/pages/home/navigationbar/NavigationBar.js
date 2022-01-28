@@ -1,12 +1,12 @@
 import React from "react";
-import { Container,Row,Col,Image,Button } from "react-bootstrap";
+import { Container,Row,Col,Button } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./NavigationBar.css";
 
 import VirtualEventImg from "./VirtualEventIcon.svg";
 
 
-const NavigationBar = () => {
+const NavigationBar = (props) => {
     return(
         <>
         <Container fluid className="navigationBarContainer">
@@ -18,7 +18,7 @@ const NavigationBar = () => {
                    </h4>
                 </Col>
                 <Col className="navigationBarRow1Col2">
-                    <Button className="navigationBarRow1Col2Button"> Register </Button>
+                    <Button className="navigationBarRow1Col2Button" onClick={()=>props.onClicked()}> Register </Button>
                 </Col>
             </Row>
         </Container>
