@@ -12,7 +12,7 @@ const SpeakerImage = (props) => {
         <Container fluid className="speakerImageContainer">
             <Row >
                 <Col >
-                <Image src={LandingImageReal} roundedCircle className="speakerImgageCss" />
+                <Image src={imgUrl ? imgUrl : LandingImageReal} roundedCircle className="speakerImgageCss" />
                 </Col>
             </Row>
             <Row >

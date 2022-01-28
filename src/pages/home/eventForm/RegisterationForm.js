@@ -23,6 +23,8 @@ const RegisterationForm = (props) => {
     const [isSuccess, setIsSuccess] = useState(false);
 
     const handleChangeUserCredentials = (e,value) => {
+        setIsError(prev => null);
+
         const temp = e.target.value;
         if(value === 'name'){
             setUserCredentials(prev => {
@@ -80,7 +82,7 @@ const RegisterationForm = (props) => {
 
 
     const handleSubmitRegisterUser = async (e) => {
-        // e.preventDefault();
+        e.preventDefault();
       const timedate = new Date();
     const formUrl = 'https://api.hsforms.com/submissions/v3/integration/submit/20107629/48e1a7d4-b918-443f-8de7-8c44dc60f576'
 
@@ -134,20 +136,17 @@ const RegisterationForm = (props) => {
         },
       }).then(res =>{
           console.log(res);
-          setIsSuccess(true);
+          setIsSuccess(prev => "Thanks for registering!");
+          setTimeout(() => {
+            setIsSuccess(prev => null);
+          },50000)
       }).catch(err => {
           console.log(err);
           setIsError(prev => "Please fill all credentials correctly!")
       })
       
       }
-    //   const myScrolltoForm = useRef(null)
-     
-    //   const executeScroll = () => myScrolltoForm.current.scrollIntoView() ;
 
-    //   useEffect(() => {
-    //     executeScroll();
-    //   },[props.onClicked])
       
  
     return(
@@ -160,15 +159,23 @@ const RegisterationForm = (props) => {
                 </h2>
                 </Col>
             </Row>
-        <Row>
             {
-                isSuccess ?
-                <Col className="regisFormSuccessFul">
-                <p> Thanks for registering! </p>
+                isSuccess && 
+                <Row>
+                <Col className="registerationFormRow1Col1">
+                <h5>
+                    {isSuccess}
+                </h5>
                 </Col>
-                :
+            </Row>
+
+            }
+            
+            
+        <Row>
+                
                 <Col>
-                        <Form>
+                <Form>
             <fieldset >
                 <Form.Group className="mb-4">
                 <Form.Control type="text" className="rfinput" placeholder="Full Name *" required onChange={(e) => handleChangeUserCredentials(e,'name')}/>
@@ -195,8 +202,6 @@ const RegisterationForm = (props) => {
             </Form>
 
             </Col>
-           
-            }
             
         </Row>
         </Container>
