@@ -12,13 +12,15 @@ import NavigationBar from "./navigationbar/NavigationBar";
 import EventTimeReminder from "./eventTimeReminder/EventTimeReminder";
 
 const Home = () => {
+  //const [checkClicked ,setCheckedClick] = useState(false);
 
   const myScrolltoForm = useRef(null)
      
   const executeScroll = () => myScrolltoForm.current.scrollIntoView() ;
 
   const goToRegister = () => {
-    executeScroll();
+     executeScroll();
+    //setCheckedClick(prev => !prev);
   }
   return (
     <>
@@ -46,7 +48,7 @@ const Home = () => {
       <Container className="AboutEventComponent" ref={myScrolltoForm}>
         <Row>
           <Col>
-            <AboutEvent />
+            <AboutEvent/>
           </Col>
         </Row>
         </Container>

@@ -1,4 +1,4 @@
-import React, { useState,useRef } from "react";
+import React, { useState} from "react";
 import axios from "axios";
 import { Container,Row,Col,Button,Form, } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,9 +9,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import "./RegisterationForm.css"
 import ErrorMessage from "../error/ErrorMessage";
-const RegisterationForm = () => {
+const RegisterationForm = (props) => {
 
-    const [counterTime, setCounterTime] = useState(50000000);
+    //const [counterTime, setCounterTime] = useState(50000000);
     const [userCredentials, setUserCredentials] = useState({
         name:"",
         email:"",
@@ -141,23 +141,18 @@ const RegisterationForm = () => {
       })
       
       }
-    //   const ScrollDemo = () => {
-        
-    //     // run this function from an event handler or an effect to execute scroll 
+    //   const myScrolltoForm = useRef(null)
      
-    //     return (
-    //        <> 
-    //           <div ref={myRef}>Element to scroll to</div> 
-    //           <button onClick={executeScroll}> Click to scroll </button> 
-    //        </>
-    //     )
-    //  }
+    //   const executeScroll = () => myScrolltoForm.current.scrollIntoView() ;
+
+    //   useEffect(() => {
+    //     executeScroll();
+    //   },[props.onClicked])
       
  
     return(
         <>
-        <Container className="registerationFormContainer" fluid>
-        {/* <a name="#registForm"></a> */}
+        <Container className="registerationFormContainer" fluid >
             <Row>
                 <Col className="registerationFormRow1Col1">
                 <h2>
