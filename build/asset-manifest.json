@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b9d3665.css",
-    "main.js": "/static/js/main.b769160d.js",
+    "main.css": "/static/css/main.dfd0e1f8.css",
+    "main.js": "/static/js/main.41620cd9.js",
     "static/js/787.1eba12de.chunk.js": "/static/js/787.1eba12de.chunk.js",
+    "static/media/MrKVDipu.jpg": "/static/media/MrKVDipu.ee5754064e4d3ea54aea.jpg",
+    "static/media/aishwarya.png": "/static/media/aishwarya.bacd272eb1859bb61239.png",
     "static/media/WhoAttendImage.svg": "/static/media/WhoAttendImage.87fac26d7ebded5d3d192ef6752a6a15.svg",
     "static/media/LandingPage.png": "/static/media/LandingPage.64ce2660abdac7246732.png",
+    "static/media/anujeetkudva.png": "/static/media/anujeetkudva.c01192dc4d04acd8fff4.png",
     "static/media/zsmallzsphot.jpg": "/static/media/zsmallzsphot.e7fb4f0c2f138a3ef42d.jpg",
     "static/media/Ritesh Kumar.jpeg": "/static/media/Ritesh Kumar.fcd48daf497147ebcb14.jpeg",
     "static/media/Dhiraj Agarwal.jpeg": "/static/media/Dhiraj Agarwal.1bbea38695eddc37b584.jpeg",
@@ -17,12 +20,12 @@
     "static/media/VirtualEventIcon.svg": "/static/media/VirtualEventIcon.2eb503309db948f6c87553d359a292db.svg",
     "index.html": "/index.html",
     "static/media/ErrorIcon.svg": "/static/media/ErrorIcon.b2563655fe31e4f9c4463c78305be2ce.svg",
-    "main.7b9d3665.css.map": "/static/css/main.7b9d3665.css.map",
-    "main.b769160d.js.map": "/static/js/main.b769160d.js.map",
+    "main.dfd0e1f8.css.map": "/static/css/main.dfd0e1f8.css.map",
+    "main.41620cd9.js.map": "/static/js/main.41620cd9.js.map",
     "787.1eba12de.chunk.js.map": "/static/js/787.1eba12de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b9d3665.css",
-    "static/js/main.b769160d.js"
+    "static/css/main.dfd0e1f8.css",
+    "static/js/main.41620cd9.js"
   ]
 }

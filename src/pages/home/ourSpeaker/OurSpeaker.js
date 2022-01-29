@@ -12,6 +12,9 @@ import RishabhGarg from "../../../assets/speakerImage/Rishabh Garg.jpeg"
 import RiteshKumar from "../../../assets/speakerImage/Ritesh Kumar.jpeg"
 import ShreejitMenon from "../../../assets/speakerImage/Shreejit Menon.jpeg"
 import SriparnaSaha from "../../../assets/speakerImage/Sriparna Saha.jpeg"
+import KVDipu from "../../../assets/speakerImage/MrKVDipu.jpg"
+import AnujeetKudva from "../../../assets/speakerImage/anujeetkudva.png"
+import Aishwarya from "../../../assets/speakerImage/aishwarya.png"
 
 
 
@@ -55,6 +58,7 @@ const OurSpeaker = () => {
         //     imgUrl:"",
         //     name:"Sivakumar Nandipati",
         //     designation:"Chief Digital Officer,FedFina"
+       // 
         // },
         {
             imgUrl:PrassannaLohar,
@@ -65,6 +69,21 @@ const OurSpeaker = () => {
             imgUrl:RishabhGarg,
             name:"Rishabh Garg",
             designation:"CTO @ U Gro Capital"     
+        },
+        {
+            imgUrl:KVDipu,
+            name:"Mr K V Dipu ",
+            designation:"President - Bajaj Allianz General Insurance Company"     
+        },
+        {
+            imgUrl:AnujeetKudva,
+            name:" Anujeet Kudva ",
+            designation:"Cheif Risk Officer, Avail Finance"     
+        },
+        {
+            imgUrl:Aishwarya,
+            name:"Aishwarya Jaishankar",
+            designation:"Co-founder, Hyperface Technologies"     
         },
     ]
     return(
