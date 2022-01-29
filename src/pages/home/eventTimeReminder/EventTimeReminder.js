@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
+//import TimeCountDown from 'react-date-countdown-timer';
 import { Container, Row, Col,Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./EventTimeReminder.css";
 import TimerSaarthi from "../../../components/timerSaarthi/TimerSaarthi";
+
 
 const EventTimeReminder = () => {
     const[counterTime, setCounterTime] = useState(295200000);
@@ -19,6 +21,8 @@ const EventTimeReminder = () => {
 useEffect(() => {
     calculateTimeDiff();
 },[]);
+
+
 
 
     return(

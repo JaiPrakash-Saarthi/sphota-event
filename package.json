@@ -1,8 +1,8 @@
 {
-  "name": "sphota",
+  "name": "sphot",
   "version": "0.1.0",
   "private": true,
-  "description": "Sphot - 5th Anniversary",
+  "description": "Saarthi.ai, the pioneer in multilingual Voice AI, invites you to Sphot – an event featuring the best minds from linguistics, AI, and BFSI. ",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
@@ -15,6 +15,7 @@
     "react": "^17.0.2",
     "react-bootstrap": "^2.1.1",
     "react-countdown": "^2.3.2",
+    "react-date-countdown-timer": "^1.1.0",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.4"

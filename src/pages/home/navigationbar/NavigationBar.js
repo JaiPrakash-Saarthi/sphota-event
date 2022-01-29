@@ -10,7 +10,7 @@ const NavigationBar = (props) => {
     return(
         <>
         <Container fluid className="navigationBarContainer">
-            <Row>
+            <Row className="navigationBarRow1">
                 <Col className="navigationBarRow1Col1">
                     <img src={VirtualEventImg} alt="img"/> &nbsp;&nbsp;&nbsp;
                    <h4>

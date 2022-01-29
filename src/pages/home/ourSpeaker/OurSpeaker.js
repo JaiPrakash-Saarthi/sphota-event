@@ -49,7 +49,7 @@ const OurSpeaker = () => {
         {
             imgUrl:DhirajAgarwal,
             name:"Dhiraj Agarwal",
-            designation:"CEO TW & EV BUSINESS at Mannapuram Finance Shreejit Menon - CEO, Indostar Capital"
+            designation:"CEO TW & EV BUSINESS at Mannapuram Finance"
         },
         // {
         //     imgUrl:"",
