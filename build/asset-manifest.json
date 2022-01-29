@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.44e4de66.css",
-    "main.js": "/static/js/main.116315cc.js",
-    "static/js/787.62aed17b.chunk.js": "/static/js/787.62aed17b.chunk.js",
+    "main.css": "/static/css/main.7b9d3665.css",
+    "main.js": "/static/js/main.b769160d.js",
+    "static/js/787.1eba12de.chunk.js": "/static/js/787.1eba12de.chunk.js",
     "static/media/WhoAttendImage.svg": "/static/media/WhoAttendImage.87fac26d7ebded5d3d192ef6752a6a15.svg",
     "static/media/LandingPage.png": "/static/media/LandingPage.64ce2660abdac7246732.png",
     "static/media/zsmallzsphot.jpg": "/static/media/zsmallzsphot.e7fb4f0c2f138a3ef42d.jpg",
@@ -14,15 +14,15 @@
     "static/media/Shreejit Menon.jpeg": "/static/media/Shreejit Menon.e8563239831b9ee1622b.jpeg",
     "static/media/Prasanna Lohar.jpeg": "/static/media/Prasanna Lohar.7336a1928b1ae2ed299b.jpeg",
     "static/media/Girish Nath Jha.jpeg": "/static/media/Girish Nath Jha.c235c7287294d85ea55f.jpeg",
-    "static/media/VirtualEventIcon.svg": "/static/media/VirtualEventIcon.22c4568b9983decc0bc942efe34e1620.svg",
-    "static/media/ErrorIcon.svg": "/static/media/ErrorIcon.b2563655fe31e4f9c4463c78305be2ce.svg",
+    "static/media/VirtualEventIcon.svg": "/static/media/VirtualEventIcon.2eb503309db948f6c87553d359a292db.svg",
     "index.html": "/index.html",
-    "main.44e4de66.css.map": "/static/css/main.44e4de66.css.map",
-    "main.116315cc.js.map": "/static/js/main.116315cc.js.map",
-    "787.62aed17b.chunk.js.map": "/static/js/787.62aed17b.chunk.js.map"
+    "static/media/ErrorIcon.svg": "/static/media/ErrorIcon.b2563655fe31e4f9c4463c78305be2ce.svg",
+    "main.7b9d3665.css.map": "/static/css/main.7b9d3665.css.map",
+    "main.b769160d.js.map": "/static/js/main.b769160d.js.map",
+    "787.1eba12de.chunk.js.map": "/static/js/787.1eba12de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44e4de66.css",
-    "static/js/main.116315cc.js"
+    "static/css/main.7b9d3665.css",
+    "static/js/main.b769160d.js"
   ]
 }
