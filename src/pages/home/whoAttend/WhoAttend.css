@@ -93,6 +93,9 @@
         justify-content: center;
         flex-direction: column;
     }
+    .whoAttCont2Row1Col2{
+        text-align: center;
+    }
 }
 
 .anyoneCont3Row1Col1 h4{

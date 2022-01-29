@@ -26,3 +26,17 @@
     color: #A9A9A9;
     padding-bottom: 7px;
 }
+
+.TPTEventInfoImage{
+    display: flex;
+    justify-content: space-between;
+}
+/* .eventInfoImageRow2Col2TPT{
+    te
+} */
+
+@media (max-width:720px) {
+    .TPTEventInfoImage{
+       flex-direction: column;
+    }
+}

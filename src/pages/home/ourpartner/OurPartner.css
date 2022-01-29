@@ -1,0 +1,27 @@
+.ourPartnerCont1Row1Col1 h2{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 45px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.ourPartnerRow2{
+    background: #565454;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 5%;
+    text-align: center;
+}
+
+.ourPartnerCont1Row2Col1IMg img{
+    width: 300px;
+    padding-bottom: 60px;
+}
+
+@media (max-width:720px) {
+    .ourPartnerCont1Row2Col1IMg img{
+        width: 200px;
+    }
+}

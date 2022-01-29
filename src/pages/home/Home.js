@@ -10,6 +10,7 @@ import WhoAttend from "./whoAttend/WhoAttend";
 import AboutSaarthi from "./aboutSaarthi/AboutSaarthi";
 import NavigationBar from "./navigationbar/NavigationBar";
 import EventTimeReminder from "./eventTimeReminder/EventTimeReminder";
+import OurPartner from "./ourpartner/OurPartner";
 
 const Home = () => {
   const [checkClicked ,setCheckedClick] = useState(false);
@@ -77,6 +78,14 @@ const Home = () => {
         <Row>
           <Col>
             <AboutSaarthi/>
+          </Col>
+        </Row>
+      </Container>
+
+      <Container  className="ourPartnerComponent">
+        <Row>
+          <Col>
+            <OurPartner/>
           </Col>
         </Row>
       </Container>

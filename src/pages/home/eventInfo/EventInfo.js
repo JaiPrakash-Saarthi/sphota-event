@@ -1,7 +1,10 @@
 import React from "react";
-import { Container,Row,Col} from "react-bootstrap";
+import { Container,Row,Col,Image} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./EventInfo.css";
+
+//import AboutInfoImage from "../eventForm/registerImageIcon.svg";
+
 const EventInfo = () => {
     return(
         <>
@@ -31,6 +34,7 @@ const EventInfo = () => {
             <h5>
             Thought-provoking Talks Revolving Around
             </h5>
+            <div className="TPTEventInfoImage">
             <ul>
                 <li>
                 Evolution of languages 
@@ -57,6 +61,10 @@ const EventInfo = () => {
                     Analytics 
                     </li>
             </ul>
+            {/* <div className="eventInfoImageRow2Col2TPT">
+            <Image src={AboutInfo} alt="About Image"/>
+            </div> */}
+            </div>
             </Col>
         </Row>
         </Container>
