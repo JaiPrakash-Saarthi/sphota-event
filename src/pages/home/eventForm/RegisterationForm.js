@@ -1,8 +1,9 @@
-import React, { useState} from "react";
+import React, { useState, useRef, useEffect} from "react";
 import axios from "axios";
 import { Container,Row,Col,Button,Form,Image } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import RegisterationIcon from "./registerImageIcon.svg";
+import useDidMountEffect from "../../../components/useDidMount/UseDidMountEffect";
 
 
 
@@ -142,13 +143,22 @@ const RegisterationForm = (props) => {
       
       }
 
+
+       const myScrolltoForm = useRef(null)
+     
+  const executeScroll = () => myScrolltoForm.current.scrollIntoView() ;
+
+  useDidMountEffect(() => {
+    executeScroll()
+  },[props.checkClicked])
+
       
  
     return(
         <>
         <Container className="registerationFormContainer" fluid >
                 <Row>
-                <Col className="registerationFormRowImgColImg">
+                <Col className="registerationFormRowImgColImg" ref={myScrolltoForm}>
                 <img src={RegisterationIcon} alt="Image"/>
                 </Col>
             </Row>

@@ -1,4 +1,4 @@
-import React,{useRef} from "react";
+import React,{useState, useRef} from "react";
 import AboutEvent from "./aboutEvent/AboutEvent";
 import "./Home.css";
 import { Container, Row, Col } from "react-bootstrap";
@@ -12,15 +12,15 @@ import NavigationBar from "./navigationbar/NavigationBar";
 import EventTimeReminder from "./eventTimeReminder/EventTimeReminder";
 
 const Home = () => {
-  //const [checkClicked ,setCheckedClick] = useState(false);
+  const [checkClicked ,setCheckedClick] = useState(false);
 
-  const myScrolltoForm = useRef(null)
+  //const myScrolltoForm = useRef(null)
      
-  const executeScroll = () => myScrolltoForm.current.scrollIntoView() ;
+  //const executeScroll = () => myScrolltoForm.current.scrollIntoView() ;
 
   const goToRegister = () => {
-     executeScroll();
-    //setCheckedClick(prev => !prev);
+     //executeScroll();
+    setCheckedClick(prev => !prev);
   }
   return (
     <>
@@ -45,10 +45,10 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
-      <Container className="AboutEventComponent" ref={myScrolltoForm}>
+      <Container className="AboutEventComponent" /*ref={myScrolltoForm}*/>
         <Row>
           <Col>
-            <AboutEvent/>
+            <AboutEvent checkClicked={checkClicked}/>
           </Col>
         </Row>
         </Container>
