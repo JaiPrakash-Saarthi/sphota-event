@@ -41,7 +41,7 @@ const OurSpeaker = () => {
         },
         {
             imgUrl:RiteshKumar,
-            name:"Ritesh",
+            name:"Ritesh Kumar",
             designation:"Associate Professor CTRANS"
         },
         // {
