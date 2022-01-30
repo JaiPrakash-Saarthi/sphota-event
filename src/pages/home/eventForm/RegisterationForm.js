@@ -197,10 +197,10 @@ const RegisterationForm = (props) => {
                 <Form.Control type="phone" className="rfinput" placeholder="Phone No *" required value={userCredentials ? userCredentials?.phone : ""} onChange={(e) => handleChangeUserCredentials(e,'phone')}/>
                 </Form.Group>
                 <Form.Group className="mb-4">
-                <Form.Control type="text" className="rfinput" placeholder="Company *" required  value={userCredentials ? userCredentials?.company : ""} onChange={(e) => handleChangeUserCredentials(e,'company')}/>
+                <Form.Control type="text" className="rfinput" placeholder="Company"   value={userCredentials ? userCredentials?.company : ""} onChange={(e) => handleChangeUserCredentials(e,'company')}/>
                 </Form.Group>
                 <Form.Group className="mb-4">
-                <Form.Control type="text" className="rfinput" placeholder="Job Title *" required value={userCredentials ? userCredentials?.jobTitle : ""} onChange={(e) => handleChangeUserCredentials(e,'jobTitle')}/>
+                <Form.Control type="text" className="rfinput" placeholder="Job Title"  value={userCredentials ? userCredentials?.jobTitle : ""} onChange={(e) => handleChangeUserCredentials(e,'jobTitle')}/>
                 </Form.Group>
                 {
                     isError &&  <ErrorMessage errorMessage={isError}/>
