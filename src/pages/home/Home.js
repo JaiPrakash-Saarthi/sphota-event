@@ -74,6 +74,15 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
+
+      <Container  className="AboutEventComponent">
+        <Row>
+          <Col>
+            <OurPartner/>
+          </Col>
+        </Row>
+      </Container>
+
       <Container  className="AboutEventComponent">
         <Row>
           <Col>
@@ -82,13 +91,7 @@ const Home = () => {
         </Row>
       </Container>
 
-      <Container  className="ourPartnerComponent">
-        <Row>
-          <Col>
-            <OurPartner/>
-          </Col>
-        </Row>
-      </Container>
+      
    
     </>
   );

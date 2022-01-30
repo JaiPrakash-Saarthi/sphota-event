@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.dfd0e1f8.css",
-    "main.js": "/static/js/main.5278db57.js",
+    "main.css": "/static/css/main.a6529334.css",
+    "main.js": "/static/js/main.11790004.js",
     "static/js/787.1eba12de.chunk.js": "/static/js/787.1eba12de.chunk.js",
     "static/media/MrKVDipu.jpg": "/static/media/MrKVDipu.ee5754064e4d3ea54aea.jpg",
+    "static/media/ecosystem.svg": "/static/media/ecosystem.0037fbeeb34766a78f87c2e469706a9b.svg",
+    "static/media/OrganiserFeatureImage.svg": "/static/media/OrganiserFeatureImage.32c88209d7dfdd8156c6f02d3ce1256f.svg",
     "static/media/aishwarya.png": "/static/media/aishwarya.bacd272eb1859bb61239.png",
     "static/media/WhoAttendImage.svg": "/static/media/WhoAttendImage.87fac26d7ebded5d3d192ef6752a6a15.svg",
     "static/media/LandingPage.png": "/static/media/LandingPage.64ce2660abdac7246732.png",
@@ -11,21 +13,22 @@
     "static/media/zsmallzsphot.jpg": "/static/media/zsmallzsphot.e7fb4f0c2f138a3ef42d.jpg",
     "static/media/Ritesh Kumar.jpeg": "/static/media/Ritesh Kumar.fcd48daf497147ebcb14.jpeg",
     "static/media/Dhiraj Agarwal.jpeg": "/static/media/Dhiraj Agarwal.1bbea38695eddc37b584.jpeg",
-    "static/media/registerImageIcon.svg": "/static/media/registerImageIcon.5b49d5178cf22a2ff7bc9fefa2c56f1a.svg",
+    "static/media/registerImageIcon.svg": "/static/media/registerImageIcon.c5d1c597dcd466fd3f930f0abb9d3884.svg",
     "static/media/Rishabh Garg.jpeg": "/static/media/Rishabh Garg.8066f384825cab7c43b8.jpeg",
     "static/media/WhyAttendImage.svg": "/static/media/WhyAttendImage.e9b31c6b21484118498c3354a756d9d7.svg",
     "static/media/Shreejit Menon.jpeg": "/static/media/Shreejit Menon.e8563239831b9ee1622b.jpeg",
     "static/media/Prasanna Lohar.jpeg": "/static/media/Prasanna Lohar.7336a1928b1ae2ed299b.jpeg",
     "static/media/Girish Nath Jha.jpeg": "/static/media/Girish Nath Jha.c235c7287294d85ea55f.jpeg",
+    "static/media/EventPartner.svg": "/static/media/EventPartner.5bca02662f8d9dba51435465f02cdb97.svg",
     "static/media/VirtualEventIcon.svg": "/static/media/VirtualEventIcon.2eb503309db948f6c87553d359a292db.svg",
     "index.html": "/index.html",
     "static/media/ErrorIcon.svg": "/static/media/ErrorIcon.b2563655fe31e4f9c4463c78305be2ce.svg",
-    "main.dfd0e1f8.css.map": "/static/css/main.dfd0e1f8.css.map",
-    "main.5278db57.js.map": "/static/js/main.5278db57.js.map",
+    "main.a6529334.css.map": "/static/css/main.a6529334.css.map",
+    "main.11790004.js.map": "/static/js/main.11790004.js.map",
     "787.1eba12de.chunk.js.map": "/static/js/787.1eba12de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfd0e1f8.css",
-    "static/js/main.5278db57.js"
+    "static/css/main.a6529334.css",
+    "static/js/main.11790004.js"
   ]
 }

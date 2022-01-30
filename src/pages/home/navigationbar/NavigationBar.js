@@ -18,7 +18,9 @@ const NavigationBar = (props) => {
                    </h4>
                 </Col>
                 <Col className="navigationBarRow1Col2">
-                    <Button className="navigationBarRow1Col2Button" onClick={()=>props.onClicked()}> Register </Button>
+                    <Button className="navigationBarRow1Col2Button" onClick={()=>props.onClicked()}>
+                        <a style={{textDecoration:"none",color:"black"}} href="https://www.airmeet.com/e/2dc28110-8119-11ec-9887-b344f2c0406f" target="_blank">
+                             Register </a></Button>
                 </Col>
             </Row>
         </Container>
