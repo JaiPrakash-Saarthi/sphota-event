@@ -83,7 +83,7 @@ const Home = () => {
         </Row>
       </Container>
 
-      <Container  className="AboutEventComponent">
+      <Container>
         <Row>
           <Col>
             <AboutSaarthi/>

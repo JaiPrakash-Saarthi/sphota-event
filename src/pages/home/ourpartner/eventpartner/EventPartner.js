@@ -19,8 +19,8 @@ const EventPartner = () => {
                 </Col>
             </Row>
             <Row>
-               <Col>
-               <Image src={EventPartnerImage} alt="Ecosystem Image" style={{width:"100%"}}/>
+               <Col style={{textAlign:"center"}}>
+               <img src={EventPartnerImage} alt="Ecosystem Image" className='eventPartnerImageCss'/>
                </Col>
             </Row>
         </Container>

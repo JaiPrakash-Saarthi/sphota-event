@@ -6,3 +6,16 @@
     color: #FFFFFF;
     padding-bottom: 15px;
 }
+
+.ecoSysPartnerImg{
+    width: 60%;
+}
+
+@media (max-width:720px) {
+    .ecoSysPartnerImg{
+        width: 100%;
+    }
+    .ecoSysPartnerRow1Col1 h2{
+        font-size: 24px;
+    }
+}

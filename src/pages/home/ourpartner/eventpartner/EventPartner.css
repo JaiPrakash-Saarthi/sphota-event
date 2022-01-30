@@ -1,0 +1,8 @@
+.eventPartnerImageCss{
+    width: 40%;
+}
+@media (max-width:720px) {
+    .eventPartnerImageCss{
+        width: 100%;
+    }
+}

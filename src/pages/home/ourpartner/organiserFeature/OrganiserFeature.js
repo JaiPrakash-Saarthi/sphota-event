@@ -19,8 +19,8 @@ const OrganiserFeature = () => {
                 </Col>
             </Row>
             <Row>
-               <Col>
-               <Image src={OrganiserFeaturePartnerImage} alt="Ecosystem Image" style={{width:"100%"}}/>
+               <Col style={{textAlign:"center"}}>
+               <Image src={OrganiserFeaturePartnerImage} alt="Ecosystem Image" className='ecoSysPartnerImg'/>
                </Col>
             </Row>
         </Container>
