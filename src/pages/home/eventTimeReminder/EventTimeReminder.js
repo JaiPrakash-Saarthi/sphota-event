@@ -31,9 +31,9 @@ useEffect(() => {
             <Row>
                 <Col> </Col>
                 <Col className="eventTimerRow1Col1" sm={10} lg={6}>
-                    <h4>
+                    {/* <h4>
                         Sphot starts in
-                    </h4>
+                    </h4> */}
                     <TimerSaarthi counterTime={counterTime} message=" Sphot is Live Now! "/>
                 </Col>
                 <Col > </Col>
