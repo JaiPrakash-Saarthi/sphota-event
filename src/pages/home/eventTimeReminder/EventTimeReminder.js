@@ -34,7 +34,7 @@ useEffect(() => {
                     <h4>
                         Sphot starts in
                     </h4>
-                    <TimerSaarthi counterTime={counterTime} message="Registeration Closed"/>
+                    <TimerSaarthi counterTime={counterTime} message=" Sphot is Live Now! "/>
                 </Col>
                 <Col > </Col>
 
