@@ -34,7 +34,7 @@ useEffect(() => {
                     {/* <h4>
                         Sphot starts in
                     </h4> */}
-                    <TimerSaarthi counterTime={counterTime} message=" Sphot is Live Now! "/>
+                    <TimerSaarthi counterTime={counterTime} message=" Revisit Sphot on our Youtube channel! "/>
                 </Col>
                 <Col > </Col>
 

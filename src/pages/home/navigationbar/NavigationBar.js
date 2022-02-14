@@ -5,6 +5,7 @@ import "./NavigationBar.css";
 
 import VirtualEventImg from "./VirtualEventIcon.svg";
 
+//https://www.airmeet.com/e/2dc28110-8119-11ec-9887-b344f2c0406f
 
 const NavigationBar = (props) => {
     return(
@@ -19,8 +20,8 @@ const NavigationBar = (props) => {
                 </Col>
                 <Col className="navigationBarRow1Col2">
                     <Button className="navigationBarRow1Col2Button" onClick={()=>props.onClicked()}>
-                        <a style={{textDecoration:"none",color:"black"}} href="https://www.airmeet.com/e/2dc28110-8119-11ec-9887-b344f2c0406f" target="_blank">
-                             Register </a></Button>
+                        <a style={{textDecoration:"none",color:"black"}} href="https://www.youtube.com/channel/UC86D05-Ia_2oZoMSGlIKYbQ" target="_blank">
+                             Revisit Sphot </a></Button>
                 </Col>
             </Row>
         </Container>

@@ -24,10 +24,10 @@ const LandingImage = (props) => {
             >
               <a
                 style={{ textDecoration: "none",color:"black" }}
-                href="https://www.airmeet.com/e/2dc28110-8119-11ec-9887-b344f2c0406f"
+                href="https://www.youtube.com/channel/UC86D05-Ia_2oZoMSGlIKYbQ"
                 target="_blank"
               >
-                Register{" "}
+                Revisit Sphot {" "}
               </a>{" "}
             </Button>
           </Col>
